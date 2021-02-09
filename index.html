@@ -59,7 +59,7 @@
         <div class="container">
           <div class="hero-container">
             <h1 class="hero-tittle">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button class="button-primary data-modal-open">
+            <button class="button-primary" data-modal-open>
               Заказать услугу
             </button>
           </div>
@@ -433,7 +433,11 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button data-modal-close>Закрыть</button>
+        <button class="button-close" data-modal-close>
+          <svg class="close-button" width="18" height="18">
+            <use href="./images/sprite.svg#close-button"></use>
+          </svg>
+        </button>
       </div>
     </div>
 
